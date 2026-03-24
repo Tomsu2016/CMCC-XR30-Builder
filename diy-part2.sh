@@ -205,8 +205,8 @@ config_package_add luci-app-autotimeset
 config_package_add luci-lib-ipkg
 
 ## byobu, tmux
-config_package_add byobu
-config_package_add tmux
+#config_package_add byobu
+#config_package_add tmux
 
 # ## Frp Latest version patch
 
