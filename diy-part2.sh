@@ -233,3 +233,27 @@ config_package_add luci-lib-ipkg
 # sed -i "s/^PKG_HASH:=.*/PKG_HASH:=${FRP_PKG_HASH}/" "$FRP_MAKEFILE_PATH"
 
 # echo "已更新 Makefile 中的 PKG_VERSION 和 PKG_HASH"
+
+
+# 自定义软件
+config_package_add atftp
+config_package_add bash
+config_package_add htop
+#config_package_add collectd-mod-sensors
+#config_package_add luci-app-statistics
+config_package_add kmod-zram
+config_package_add zram-swap
+config_package_add kmod-fs-exfat
+config_package_add kmod-fs-vfat
+config_package_add f2fs-tools
+config_package_add kmod-fs-nfs
+config_package_add kmod-usb-storage
+config_package_add kmod-usb-storage
+config_package_add block-mount
+config_package_add kmod-fs-ntfs3
+config_package_add luci-app-smartdns
+config_package_add luci-app-tailscale-community
+config_package_add luci-app-samba4
+
+
+
